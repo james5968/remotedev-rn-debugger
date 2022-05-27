@@ -26,6 +26,11 @@ export const fileInfos = {
     file: 'debugger.html',
     path: 'local-cli/server/util/debugger.html',
   },
+  '0.68.1': {
+      dir: '../@react-native-community/cli/build/commands/server/debugger-ui',
+      file: 'index.html',
+      path: '../@react-native-community/cli/build/commands/server/debugger-ui/index.html',
+    },
 };
 
 const getModuleInfo = (modulePath) => {
